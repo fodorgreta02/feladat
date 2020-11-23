@@ -67,4 +67,10 @@ public class Feladat {
         System.out.println("A számok összege: "+osszeg);
     }
     
+    public static void szorzas(int szorzas, int n){
+        for(int i = 0; i < n; i++){
+            szorzas = szorzas*i;
+        }
+        System.out.println("A számok szorzata: "+szorzas);
+    }
 }
