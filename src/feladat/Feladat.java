@@ -57,7 +57,14 @@ public class Feladat {
         
         System.out.println("\n");
         
+        //Krappai Sándor
         
+        int osszeg = 0;
+        System.out.println("A számok összege "+n+"-ig");
+        for ( i = 0; i <= n; i++  ){
+            osszeg = osszeg + i; 
+        }
+        System.out.println("A számok összege: "+osszeg);
     }
     
 }
