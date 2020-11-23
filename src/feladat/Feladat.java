@@ -17,6 +17,21 @@ public class Feladat {
     public static void main(String[] args) {
         // TODO code application logic here
         // A projekt létre lett hozva
+        
+        //Fodor Gréta Dominika
+        
+        int i;
+        for ( i = 0; i <= 10; i++  ){
+            
+            if ( i % 2 == 0 ){
+                
+                System.out.print( i + ", ");
+                
+            }
+            
+        }
+        
+        
     }
     
 }
