@@ -21,6 +21,8 @@ public class Feladat {
         //Fodor Gréta Dominika
         
         int i;
+        
+        System.out.println("A páros számok: ");
         for ( i = 0; i <= 10; i++  ){
             
             if ( i % 2 == 0 ){
@@ -30,6 +32,21 @@ public class Feladat {
             }
             
         }
+        
+        System.out.println("\n");
+        
+        System.out.println("A páratlan számok: ");
+        for ( i = 0; i <= 10; i++  ){
+            
+            if ( i % 2 >= 1 ){
+                
+                System.out.print( i + ", ");
+                
+            }
+            
+        }
+        
+        System.out.println("\n");
         
         
     }
