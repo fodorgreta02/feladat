@@ -5,6 +5,8 @@
  */
 package feladat;
 
+import java.util.Scanner;
+
 /**
  *
  * @author HP
@@ -21,9 +23,16 @@ public class Feladat {
         //Fodor Gréta Dominika
         
         int i;
+        int n = 0;
+        
+        Scanner beker = new Scanner(System.in);
+        
+        System.out.print("Kérem adja meg 'n' értékét:  ");
+        n = beker.nextInt();
+         
         
         System.out.println("A páros számok: ");
-        for ( i = 0; i <= 10; i++  ){
+        for ( i = 0; i <= n; i++  ){
             
             if ( i % 2 == 0 ){
                 
@@ -36,7 +45,7 @@ public class Feladat {
         System.out.println("\n");
         
         System.out.println("A páratlan számok: ");
-        for ( i = 0; i <= 10; i++  ){
+        for ( i = 0; i <= n; i++  ){
             
             if ( i % 2 >= 1 ){
                 
