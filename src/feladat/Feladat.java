@@ -16,6 +16,9 @@ public class Feladat {
     /**
      * @param args the command line arguments
      */
+    
+     
+    
     public static void main(String[] args) {
         // TODO code application logic here
         // A projekt létre lett hozva
@@ -65,12 +68,13 @@ public class Feladat {
             osszeg = osszeg + i; 
         }
         System.out.println("A számok összege: "+osszeg);
-    }
-    
-    public static void szorzas(int szorzas, int n){
-        for(int i = 0; i < n; i++){
-            szorzas = szorzas*i;
+        
+        int sz=1;
+        System.out.println("A számok szorzata "+n+"-ig");
+        for(i = 1; i < n; i++){
+            sz = sz*i;
         }
-        System.out.println("A számok szorzata: "+szorzas);
+        System.out.println("A számok szorzata: "+sz);
     }
+   
 }
