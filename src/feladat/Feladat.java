@@ -75,6 +75,15 @@ public class Feladat {
             sz = sz*i;
         }
         System.out.println("A számok szorzata: "+sz);
+    
+        System.out.println("\n");
+        
+        System.out.println("A szám pozitív vagy negatív?");
+        if (n >= -2){ //Itt a hiba, -2 helyett 0 kell.
+            System.out.println("A szám pozitív");
+        }else System.out.println("A szám páratlan");
+    
+    
     }
    
 }
